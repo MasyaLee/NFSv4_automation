@@ -1,0 +1,143 @@
+2017-04-15 20:26:28,089 test_cases.tc_1 INFO     Create a file in a share directory. Condition *(rw, sync)
+2017-04-15 20:26:28,090 test_cases.tc_1 DEBUG    Step 1 is passed
+2017-04-15 20:26:28,090 test_cases.tc_1 INFO     You changed a directory
+2017-04-15 20:26:28,102 test_cases.tc_1 INFO     Your work directory is /mnt/share
+ 
+2017-04-15 20:26:28,148 test_cases.tc_1 DEBUG    Step 2 is passed
+2017-04-15 20:26:28,148 test_cases.tc_1 INFO     A file has been created 
+2017-04-15 20:26:28,182 test_cases.tc_1 DEBUG    Step 3 is passed
+2017-04-15 20:26:28,182 test_cases.tc_1 INFO     You look at a file via cat 
+2017-04-15 20:26:28,197 test_cases.tc_1 INFO     A list of files in current directory: 
+ TESTFILE
+ 
+2017-04-15 20:26:28,317 test_cases.tc_2 INFO     Rename a file from a share directory. Condition *(rw, sync)
+2017-04-15 20:26:28,425 test_cases.tc_2 DEBUG    Step 1 is passed
+2017-04-15 20:26:28,425 test_cases.tc_2 INFO     Remote command has been successful
+2017-04-15 20:26:28,425 test_cases.tc_2 DEBUG    Step 2 is passed
+2017-04-15 20:26:28,425 test_cases.tc_2 INFO     You changed a directory
+2017-04-15 20:26:28,432 test_cases.tc_2 INFO     Your work directory is /mnt/share
+ 
+2017-04-15 20:26:28,470 test_cases.tc_2 DEBUG    Step 3 is passed
+2017-04-15 20:26:28,470 test_cases.tc_2 INFO     The file was renamed
+2017-04-15 20:26:28,482 test_cases.tc_2 INFO     A list of files in current directory: 
+ TESTFILE_2
+ 
+2017-04-15 20:26:28,591 test_cases.tc_3 INFO     Remove a file from a share directory. Condition *(rw, sync)
+2017-04-15 20:26:28,706 test_cases.tc_3 DEBUG    Step 1 is passed
+2017-04-15 20:26:28,706 test_cases.tc_3 INFO     Remote command has been successful
+2017-04-15 20:26:28,706 test_cases.tc_3 DEBUG    Step 2 is passed
+2017-04-15 20:26:28,706 test_cases.tc_3 INFO     You changed a directory
+2017-04-15 20:26:28,714 test_cases.tc_3 INFO     Your work directory is /mnt/share
+ 
+2017-04-15 20:26:28,734 test_cases.tc_3 DEBUG    Step 3 is passed
+2017-04-15 20:26:28,734 test_cases.tc_3 INFO     The file was removed
+2017-04-15 20:26:28,747 test_cases.tc_3 INFO     A list of files in current directory: 
+  
+2017-04-15 20:26:28,859 test_cases.tc_4 INFO     Copy a file to a share directory. Condition *(rw, sync)
+2017-04-15 20:26:28,973 test_cases.tc_4 DEBUG    Step 1 is passed
+2017-04-15 20:26:28,973 test_cases.tc_4 INFO     Remote command has been successful
+2017-04-15 20:26:28,984 test_cases.tc_4 DEBUG    Step 2 is passed
+2017-04-15 20:26:28,984 test_cases.tc_4 INFO     The directory has been created 
+2017-04-15 20:26:28,985 test_cases.tc_4 DEBUG    Step 3 is passed
+2017-04-15 20:26:28,985 test_cases.tc_4 INFO     You changed a directory
+2017-04-15 20:26:28,993 test_cases.tc_4 INFO     Your work directory is /mnt/share
+ 
+2017-04-15 20:26:29,004 test_cases.tc_4 DEBUG    Step 4 is passed
+2017-04-15 20:26:29,004 test_cases.tc_4 INFO     The file was copied 
+2017-04-15 20:26:29,013 test_cases.tc_4 DEBUG    Step 5 is passed
+2017-04-15 20:26:29,013 test_cases.tc_4 INFO     You look at a file via cat 
+2017-04-15 20:26:29,024 test_cases.tc_4 INFO     A list of files in current directory: 
+ TESTFILE
+ 
+2017-04-15 20:26:29,160 test_cases.tc_5 INFO     Move a file into a share directory. Condition *(rw, sync)
+2017-04-15 20:26:29,167 test_cases.tc_5 DEBUG    Step 1 is passed
+2017-04-15 20:26:29,168 test_cases.tc_5 INFO     The directory has been created 
+2017-04-15 20:26:29,168 test_cases.tc_5 DEBUG    Step 2 is passed
+2017-04-15 20:26:29,168 test_cases.tc_5 INFO     You changed a directory
+2017-04-15 20:26:29,175 test_cases.tc_5 INFO     Your work directory is /home/masya/Masyalee/PyCharm_projects/NFSv4_share/TESTDIR
+ 
+2017-04-15 20:26:29,182 test_cases.tc_5 DEBUG    Step 3 is passed
+2017-04-15 20:26:29,182 test_cases.tc_5 INFO     A file has been created 
+2017-04-15 20:26:29,204 test_cases.tc_5 DEBUG    Step 4 is passed
+2017-04-15 20:26:29,204 test_cases.tc_5 INFO     The file was moved 
+2017-04-15 20:26:29,212 test_cases.tc_5 INFO     A list of files in current directory: 
+  
+2017-04-15 20:26:29,212 test_cases.tc_5 DEBUG    Step 5 is passed
+2017-04-15 20:26:29,213 test_cases.tc_5 INFO     You changed a directory
+2017-04-15 20:26:29,222 test_cases.tc_5 INFO     Your work directory is /mnt/share
+ 
+2017-04-15 20:26:29,232 test_cases.tc_5 INFO     A list of files in current directory: 
+ TESTFILE
+ 
+2017-04-15 20:26:29,356 test_cases.tc_6 INFO     Execute a file from a share directory. Condition *(rw, sync)
+2017-04-15 20:26:29,357 test_cases.tc_6 DEBUG    Step 1 is passed
+2017-04-15 20:26:29,357 test_cases.tc_6 INFO     You changed a directory
+2017-04-15 20:26:29,366 test_cases.tc_6 INFO     Your work directory is /mnt/share
+ 
+2017-04-15 20:26:29,387 test_cases.tc_6 DEBUG    Step 2 is passed
+2017-04-15 20:26:29,388 test_cases.tc_6 INFO     A file has been created 
+2017-04-15 20:26:29,411 test_cases.tc_6 INFO     A list of files in current directory: 
+ TESTFILE
+ 
+2017-04-15 20:26:29,431 test_cases.tc_6 DEBUG    Step 3 is passed
+2017-04-15 20:26:29,432 test_cases.tc_6 INFO     Record data into the file has been completed 
+2017-04-15 20:26:29,433 test_cases.tc_6 INFO     Data inside file is ['echo "May_the_force_be_with_you!"\n']
+2017-04-15 20:26:29,445 test_cases.tc_6 DEBUG    Step 4 is passed
+2017-04-15 20:26:29,446 test_cases.tc_6 INFO     The file was executed
+2017-04-15 20:26:29,954 test_cases.tc_7 INFO     Move a file into a share directory. Condition *(ro, sync)
+2017-04-15 20:26:29,963 test_cases.tc_7 DEBUG    Step 1 is passed
+2017-04-15 20:26:29,964 test_cases.tc_7 INFO     The directory has been created 
+2017-04-15 20:26:29,964 test_cases.tc_7 DEBUG    Step 2 is passed
+2017-04-15 20:26:29,964 test_cases.tc_7 INFO     You changed a directory
+2017-04-15 20:26:29,972 test_cases.tc_7 INFO     Your work directory is /home/masya/Masyalee/PyCharm_projects/NFSv4_share/TESTDIR
+ 
+2017-04-15 20:26:29,980 test_cases.tc_7 DEBUG    Step 3 is passed
+2017-04-15 20:26:29,981 test_cases.tc_7 INFO     A file has been created 
+2017-04-15 20:26:29,990 test_cases.tc_7 DEBUG    Step 4 is failed
+2017-04-15 20:26:29,990 test_cases.tc_7 ERROR    mv: inter-device move failed: 'TESTFILE' to '/mnt/share/TESTFILE'; unable to remove target: Read-only file system
+
+2017-04-15 20:26:29,998 test_cases.tc_7 INFO     A list of files in current directory: 
+ TESTFILE
+ 
+2017-04-15 20:26:29,998 test_cases.tc_7 DEBUG    Step 5 is passed
+2017-04-15 20:26:29,998 test_cases.tc_7 INFO     You changed a directory
+2017-04-15 20:26:30,005 test_cases.tc_7 INFO     Your work directory is /mnt/share
+ 
+2017-04-15 20:26:30,013 test_cases.tc_7 INFO     A list of files in current directory: 
+  
+2017-04-15 20:26:30,217 test_cases.tc_8 INFO     Remove a file from a share directory. Condition *(ro, sync)
+2017-04-15 20:26:30,325 test_cases.tc_8 DEBUG    Step 1 is passed
+2017-04-15 20:26:30,326 test_cases.tc_8 INFO     Remote command has been successful
+2017-04-15 20:26:30,326 test_cases.tc_8 DEBUG    Step 2 is passed
+2017-04-15 20:26:30,326 test_cases.tc_8 INFO     You changed a directory
+2017-04-15 20:26:30,333 test_cases.tc_8 INFO     Your work directory is /mnt/share
+ 
+2017-04-15 20:26:30,343 test_cases.tc_8 DEBUG    Step 3 is failed
+2017-04-15 20:26:30,343 test_cases.tc_8 ERROR    rm: cannot remove './TESTFILE': Read-only file system
+
+2017-04-15 20:26:30,355 test_cases.tc_8 INFO     A list of files in current directory: 
+ TESTFILE
+ 
+2017-04-15 20:26:30,464 test_cases.tc_9 INFO     Rename a file from a share directory. Condition *(ro, sync)
+2017-04-15 20:26:30,569 test_cases.tc_9 DEBUG    Step 1 is passed
+2017-04-15 20:26:30,569 test_cases.tc_9 INFO     Remote command has been successful
+2017-04-15 20:26:30,569 test_cases.tc_9 DEBUG    Step 2 is passed
+2017-04-15 20:26:30,569 test_cases.tc_9 INFO     You changed a directory
+2017-04-15 20:26:30,579 test_cases.tc_9 INFO     Your work directory is /mnt/share
+ 
+2017-04-15 20:26:30,591 test_cases.tc_9 DEBUG    Step 3 is failed
+2017-04-15 20:26:30,591 test_cases.tc_9 ERROR    mv: cannot move 'TESTFILE' to 'TESTFILE_2': Read-only file system
+
+2017-04-15 20:26:30,603 test_cases.tc_9 INFO     A list of files in current directory: 
+ TESTFILE
+ 
+2017-04-15 20:26:30,715 test_cases.tc_10 INFO     Write data into a file from a share directory. Condition *(ro, sync)
+2017-04-15 20:26:30,821 test_cases.tc_10 DEBUG    Step 1 is passed
+2017-04-15 20:26:30,821 test_cases.tc_10 INFO     Remote command has been successful
+2017-04-15 20:26:30,821 test_cases.tc_10 DEBUG    Step 1 is passed
+2017-04-15 20:26:30,821 test_cases.tc_10 INFO     You changed a directory
+2017-04-15 20:26:30,830 test_cases.tc_10 INFO     Your work directory is /mnt/share
+ 
+2017-04-15 20:26:30,831 test_cases.tc_10 DEBUG    Step 3 is failed
+2017-04-15 20:26:30,831 test_cases.tc_10 ERROR    [Errno 30] Read-only file system: 'TESTFILE'
+2017-04-15 20:26:30,833 test_cases.tc_10 INFO     Data inside file is []
